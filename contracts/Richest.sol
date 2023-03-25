@@ -25,6 +25,6 @@ contract Richest {
     }
 
     function getRichest() public view returns (address) {
-        return richest;
+        return (richest);
     }
 }
