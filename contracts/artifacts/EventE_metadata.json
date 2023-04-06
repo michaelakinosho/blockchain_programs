@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,9 +18,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/HelloWorld.sol": "DebtTracking"
+			"contracts/EventEmitter.sol": "EventE"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -32,11 +32,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/HelloWorld.sol": {
-			"keccak256": "0xdc344aa4f29684e0b48e9a972108ffaaebff05e7a3a13e9d6f171f2dc80f5b1f",
+		"contracts/EventEmitter.sol": {
+			"keccak256": "0xf9a26813015a4353326337f259fc2333028120ac934fc093cfc558e6418c6a4a",
 			"urls": [
-				"bzz-raw://da44c5032e48a8bf25be40019f6436b4a4be88a3ded8ff295ccf5280cc79ef73",
-				"dweb:/ipfs/QmZg6Xs89dWNTp5wGYfcwdyAQ8kKgFqUTBjg1NyFwbs158"
+				"bzz-raw://f2675a2cb759991d51a6031354f9f7c6580936714e5bac71abad8265e7f8fc25",
+				"dweb:/ipfs/Qmc3ztc1WZm1F7En4p6fx55UknhUMGfXeaXTer2iHaFFYG"
 			]
 		}
 	},
