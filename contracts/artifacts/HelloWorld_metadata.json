@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -8,17 +8,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "str",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "maxLoops",
+						"type": "uint256"
 					}
 				],
-				"name": "convertStringBytes",
+				"name": "test",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "pure",
@@ -26,45 +26,16 @@
 			},
 			{
 				"inputs": [],
-				"name": "testReturnBytes",
-				"outputs": [
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					},
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "testReturnString",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "testString",
+				"name": "testForLoop",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testWhileLoop",
+				"outputs": [],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -81,9 +52,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/String.sol": "HelloWorld"
+			"contracts/Loops.sol": "HelloWorld"
 		},
-		"evmVersion": "london",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -95,11 +66,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/String.sol": {
-			"keccak256": "0xa8bb496c15a0dff5c7a4b4304eb27c50704bd66a149c22111054c2d1d5437429",
+		"contracts/Loops.sol": {
+			"keccak256": "0x92bf127ebd21ff1cfec55b2dde0c25e05203608845260e6a8eda1e22aa10a3e1",
 			"urls": [
-				"bzz-raw://30e2c6235431b4184572cd225c908a44db42d1cf420a2b27b1f0b1466ebec3ec",
-				"dweb:/ipfs/QmVgU1fB9hV4epAQcu8VtBhpANq4uqXXCMTcunVfAJ83Xg"
+				"bzz-raw://4128a84e55e027db8a8bf7faec626ac0def92c2e218dad3f219ff6dda474e2e1",
+				"dweb:/ipfs/QmRqiKjkBFVbXZFbvTNDiU5AHH3UcgXjAD84UZMKeTtDfr"
 			]
 		}
 	},
